@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+.flaskenv
+
+# Specific files to ignore
+sample_income_data.csv # If this is a large data file you don't want on Git
+
+# IDE and OS generated files
+.vscode/
+.DS_Store
+Thumbs.db
